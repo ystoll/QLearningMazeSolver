@@ -1,12 +1,13 @@
 import sys
 import gi
 
-gi.require_version("Gtk", "3.0")
-from gi.repository import Gtk
-from gi.repository import GdkPixbuf
-
 import maze
 import qlearn_agent
+
+from gi.repository import Gtk
+from gi.repository import GdkPixbuf
+gi.require_version("Gtk", "3.0")
+
 
 # The main event handler for the program
 # The functions here get called when buttons are clicked in the GUI

@@ -7,6 +7,8 @@ import random
 # Given a maze, learns the optimal path from each starting point via Q-Learning
 # For more info on this algorithm, check out the blog post here: https://github.com/mitchellspryn/QLearningMazeSolver
 #
+
+
 class QLearnAgent:
     def __init__(self):
         # Reward matrix

@@ -3,6 +3,8 @@ import random
 
 # A class to represent a maze
 #
+
+
 class Maze:
     def __init__(self):
         self.maze = None
